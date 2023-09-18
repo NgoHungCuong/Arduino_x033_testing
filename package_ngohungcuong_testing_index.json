@@ -24,8 +24,8 @@
           "toolsDependencies": [
             {
               "packager": "ngohungcuong_testing",
-              "name": "riscv-none-embed-gcc",
-              "version": "8.2.0"
+              "name": "riscv-none-elf-gcc",
+              "version": "13.2.0"
             },
             {
               "packager": "ngohungcuong_testing",
