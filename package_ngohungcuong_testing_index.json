@@ -10,7 +10,7 @@
       },
       "platforms": [
         {
-          "name": "Arduino X033",
+          "name": "Arduino X033 Testing",
           "architecture": "ch32x",
           "version": "1.0.0",
           "category": "Contributed",
