@@ -1,0 +1,71 @@
+{
+  "packages": [
+    {
+      "name": "ngohungcuong_testing",
+      "websiteURL": "http://vidieukhien.org",
+      "maintainer": "Ngo Hung Cuong",
+      "email": "ngohungcuong@gmail.com",
+      "help": {
+        "online": "http://vidieukhien.org"
+      },
+      "platforms": [
+        {
+          "name": "Arduino X033",
+          "architecture": "ch32x",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/core/arduino_core_ch32x_1.0.0.zip",
+          "archiveFileName": "arduino_core_ch32x_1.0.0.zip",
+          "checksum": "SHA-256:18c049a5aa7b39af5b124b78d406f967b163920a57aeb667abd1a117e231153c",
+          "size": "299533",
+          "boards": [
+            {"name": "Arduino X033"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "ngohungcuong_testing",
+              "name": "riscv-none-embed-gcc",
+              "version": "8.2.0"
+            },
+            {
+              "packager": "ngohungcuong_testing",
+              "name": "arduino_x033_bootloader",
+              "version": "1.0.0"
+            }
+          ]
+        }		
+      ],
+      "tools": [
+        {
+          "name": "riscv-none-elf-gcc",
+          "version": "13.2.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://github.com/NgoHungCuong/riscv-none-elf-gcc-xpack/releases/download/riscv-none-elf-gcc-xpack-v13.2.0/riscv-none-elf-gcc-13.2.0.zip",
+              "archiveFileName": "riscv-none-elf-gcc-13.2.0.zip",
+              "checksum": "SHA-256:ace2fdc5ca1a77a909ce6f9d67f06902c7d67201b9f2e7042ca5cdf7238d8bab",
+              "size": "557843489"
+            }
+          ]
+        },
+        {
+          "name": "arduino_x033_bootloader",
+          "version": "1.0.0",
+          "systems":
+          [
+            {
+              "host": "i686-mingw32",
+              "url": "https://raw.githubusercontent.com/NgoHungCuong/Arduino_X033/main/bootloader/arduino_x033_bootloader_1.0.0.zip",
+              "archiveFileName": "arduino_x033_bootloader_1.0.0.zip",
+              "checksum": "SHA-256:38849799bf9950acc9df7a737259ec7384afae0ab6ba93bfd20630b7f874a8c1",
+              "size": "120849"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
